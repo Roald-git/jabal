@@ -2,6 +2,8 @@
 body{
       margin: 0;
     padding: 0;
+    font-family:'poppins', sans-serif;
+
 }
 .f1{
     display: flex;
@@ -28,6 +30,11 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right:40px;
+}
+nav ul:hover{
+    color: black;
+    border-bottom: 3px;
+    transition: 0.5s;
 }
 
 a{
@@ -77,11 +84,17 @@ p{
     background: green;
      transition: transform scale(1.05) 1s;
 }
-
-
-
-
-
+.title{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+.i{
+    background: gold;
+}
+.products{
+    margin:
+}
 
 
 
