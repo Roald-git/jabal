@@ -10,15 +10,38 @@ body{
     align-items: center;
     padding: 20px;
 }
-  .header{
+.header{
     background:radial-gradient(rgb(205, 209, 210));
-  }
-  .header .row{
-    margin-top: 70px;
-  } 
-  .products{
+}
+
+.title{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+.products{
     display:flex;
-  }     
+    justify-content: center;
+}  
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+.col-3{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.col-3 img{
+    border-top: 1px solid gray;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: gold;
+}
+
 nav{
     flex: 1;
     text-align: right;
@@ -36,7 +59,6 @@ nav ul:hover{
     border-bottom: 3px;
     transition: 0.5s;
 }
-
 a{
     text-decoration: none;
     color: black;
@@ -84,17 +106,10 @@ p{
     background: green;
      transition: transform scale(1.05) 1s;
 }
-.title{
-    text-align: center;
-    margin: auto;
-    font-size: 30px;
-}
 .i{
     background: gold;
 }
-.products{
-    margin:
-}
+
 
 
 
